@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: 102bc7b455af13746afee92731735cea
+guid: ca41508f4f55a3e4c8f1f68e9b4b30c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5986030973748356752
-    second: Explosion_0
+      213: 5991583392424498238
+    second: Enemy_Walk_0
   - first:
-      213: -5600206312213581617
-    second: Explosion_1
+      213: -2833455842030430809
+    second: Enemy_Walk_1
   - first:
-      213: 3815954189206336483
-    second: Explosion_2
+      213: -7498359032907833628
+    second: Enemy_Walk_2
   - first:
-      213: -3690502768834906923
-    second: Explosion_3
+      213: 7133005314769054611
+    second: Enemy_Walk_3
   - first:
-      213: -49130668184793455
-    second: Explosion_4
+      213: -6707113515720219177
+    second: Enemy_Walk_4
   - first:
-      213: -2330519403281856691
-    second: Explosion_5
+      213: 3586783932063087026
+    second: Enemy_Walk_5
   - first:
-      213: -4796932125324312052
-    second: Explosion_6
+      213: -1197616636366596118
+    second: Enemy_Walk_6
   - first:
-      213: 4348620978117878488
-    second: Explosion_7
+      213: -3651110630357478740
+    second: Enemy_Walk_7
   - first:
-      213: 7788287979965792003
-    second: Explosion_8
+      213: -3361319381863272812
+    second: Enemy_Walk_8
   - first:
-      213: -5876230404456235001
-    second: Explosion_9
-  - first:
-      213: -7061159883300251746
-    second: Explosion_10
-  - first:
-      213: 497560801652076451
-    second: Explosion_11
+      213: -5699725349316185777
+    second: Enemy_Walk_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -81,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explosion_0
+      name: Enemy_Walk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 096a1cc8477a21350800000000000000
-      internalID: 5986030973748356752
+      spriteID: e349793c951662350800000000000000
+      internalID: 5991583392424498238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_1
+      name: Enemy_Walk_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc0fb9bb7021842b0800000000000000
-      internalID: -5600206312213581617
+      spriteID: 7a555098cea8da8d0800000000000000
+      internalID: -2833455842030430809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_2
+      name: Enemy_Walk_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +185,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3bec60e1ef4f430800000000000000
-      internalID: 3815954189206336483
+      spriteID: 4eedf25003a70f790800000000000000
+      internalID: -7498359032907833628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_3
+      name: Enemy_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b68cf9a868df260800000000000000
+      internalID: 7133005314769054611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Walk_4
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d4fffce843b8ccc0800000000000000
-      internalID: -3690502768834906923
+      spriteID: 7d566431bcb8be2a0800000000000000
+      internalID: -6707113515720219177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_4
+      name: Enemy_Walk_5
       rect:
         serializedVersion: 2
-        x: 512
+        x: 480
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19e8447eae3715ff0800000000000000
-      internalID: -49130668184793455
+      spriteID: 2b9f2bc8bf0d6c130800000000000000
+      internalID: 3586783932063087026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_5
+      name: Enemy_Walk_6
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +269,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47ca3943f458afd0800000000000000
-      internalID: -2330519403281856691
+      spriteID: ae75544b306316fe0800000000000000
+      internalID: -1197616636366596118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_6
+      name: Enemy_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2d3e1e936a45dc0800000000000000
+      internalID: -3651110630357478740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Walk_8
       rect:
         serializedVersion: 2
         x: 768
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c028262b5afdd6db0800000000000000
-      internalID: -4796932125324312052
+      spriteID: 49e676bc4d13a51d0800000000000000
+      internalID: -3361319381863272812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_7
+      name: Enemy_Walk_9
       rect:
         serializedVersion: 2
-        x: 896
+        x: 864
         y: 0
-        width: 128
-        height: 128
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,92 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d227875db7695c30800000000000000
-      internalID: 4348620978117878488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_8
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30f3e4657ae851c60800000000000000
-      internalID: 7788287979965792003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_9
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 700490ca49f637ea0800000000000000
-      internalID: -5876230404456235001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_10
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9756ad6f78b10e90800000000000000
-      internalID: -7061159883300251746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_11
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3af61a4b9e0b7e600800000000000000
-      internalID: 497560801652076451
+      spriteID: f4138b44ef186e0b0800000000000000
+      internalID: -5699725349316185777
       vertices: []
       indices: 
       edges: []
